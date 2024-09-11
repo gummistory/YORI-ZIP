@@ -1,0 +1,275 @@
+@charset "utf-8";
+
+/* 상세보기 */
+.container {
+position: relative;
+width: 100%;
+height: 1725px;
+left: 0%;
+top: 0%;
+
+background: #FFFFFF;
+}
+
+/* 혜디니’s 쿠킹 일지 */
+.view_main_title {
+position: absolute;
+width: auto;
+height: 51px;
+left: 40%;
+top: 3%;
+
+text-align:center;
+font-family: 'Noto Sans';
+font-weight: 700;
+font-size: 39.2371px;
+line-height: 130%;
+
+color: #000000;
+}
+
+/* 사진 배경 안쪽 */
+.view_main_image_box{
+position: absolute;
+display: autofill;
+width: 196px;
+height: 220px;
+left: 44%;
+top: 8%;
+
+background-color: #ffffff;
+border: 3px solid #EFEEEC;
+border-radius: 18px;
+}
+
+/* 사진 배경 */
+.view_main_image_form {
+position: absolute;
+display: autofill;
+width: 100%;
+height: 370px;
+top: 8%;
+
+border-bottom:3px solid #EFEEEC;
+}
+
+/* 이미지 사진 폼 */
+.view_mypage_image_box {
+position: absolute;
+width: 130px;
+height: 130px;
+left: 18%;
+top: 8%;
+
+text-align: center;
+}
+
+/* list box form */
+.community_list_box {
+position: absolute;
+width: 100%;
+height: 1000px;
+left: auto;
+top: 40%;
+}
+
+/* list box */
+.community_list_box1 {
+position: absolute;
+width: 80%;
+height: 1000px;
+left: 10%;
+top: 0%;
+}
+
+#opt1 {
+    align-items: start;
+}
+
+#opt2 {
+    align-items: center;
+}
+
+#opt3 {
+    align-items: end;
+}
+
+.view_main_content{
+    position: absolute;
+width: auto;
+height: 51px;
+left: 20%;
+top: 39%;
+
+font-family: 'Noto Sans';
+font-weight: 600;
+font-size: 25px;
+color: #000000;
+}
+
+/* selectbox */
+.select_sort{
+position: absolute;
+width: 130px;
+height: 50px;
+left: 73.5%;
+top: 35%;
+
+border-radius: 13px;
+}
+
+/* list1 사진 */
+.community_list1_image {
+position: absolute;
+width: 200px;
+height: 200px;
+left: 12%;
+top: 5%;
+
+text-align:center;
+border: 1px solid #000000;
+border-radius: 10%;
+}
+
+/* list2 사진 */
+.community_list2_image {
+position: absolute;
+width: 200px;
+height: 200px;
+left: 33%;
+top: 5%;
+
+border: 1px solid #000000;
+border-radius: 10%;
+}
+
+/* list3 사진 */
+.community_list3_image {
+position: absolute;
+width: 200px;
+height: 200px;
+left: 54%;
+top: 5%;
+
+border: 1px solid #000000;
+border-radius: 10%;
+}
+
+/* list4 사진 */
+.community_list4_image {
+position: absolute;
+width: 200px;
+height: 200px;
+left: 75%;
+top: 5%;
+
+border: 1px solid #000000;
+border-radius: 10%;
+}
+
+/* list5 사진 */
+.community_list5_image {
+position: absolute;
+width: 200px;
+height: 200px;
+left: 12%;
+top: 33%;
+
+border: 1px solid #000000;
+border-radius: 10%;
+}
+
+/* list6 사진 */
+.community_list6_image {
+position: absolute;
+width: 200px;
+height: 200px;
+left: 33%;
+top: 33%;
+
+border: 1px solid #000000;
+border-radius: 10%;
+}
+
+/* list7 사진 */
+.community_list7_image {
+position: absolute;
+width: 200px;
+height: 200px;
+left: 54%;
+top: 33%;
+
+border: 1px solid #000000;
+border-radius: 10%;
+}
+
+/* list8 사진 */
+.community_list8_image {
+position: absolute;
+width: 200px;
+height: 200px;
+left: 75%;
+top: 33%;
+
+border: 1px solid #000000;
+border-radius: 10%;
+}
+
+/* list9 사진 */
+.community_list9_image {
+position: absolute;
+width: 200px;
+height: 200px;
+left: 12%;
+top: 60%;
+
+border: 1px solid #000000;
+border-radius: 10%;
+}
+
+/* list10 사진 */
+.community_list10_image {
+position: absolute;
+width: 200px;
+height: 200px;
+left: 33%;
+top: 60%;
+
+border: 1px solid #000000;
+border-radius: 10%;
+}
+
+/* list11 사진 */
+.community_list11_image {
+position: absolute;
+width: 200px;
+height: 200px;
+left: 54%;
+top: 60%;
+
+border: 1px solid #000000;
+border-radius: 10%;
+}
+
+/* list12 사진 */
+.community_list12_image {
+position: absolute;
+width: 200px;
+height: 200px;
+left: 75%;
+top: 60%;
+
+border: 1px solid #000000;
+border-radius: 10%;
+}
+
+/* 페이징 */
+.list_paging_table {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 46%;
+    top: 92%;
+
+    font-size: 20px;
+}

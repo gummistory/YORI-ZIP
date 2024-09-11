@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+/* 상세보기 */
+.container {
+position: relative;
+width: 100%;
+height: 2625px;
+left: 0%;
+top: 0%;
+
+background: #FFFFFF;
+}
+
+/* 검색창 */
+.search_bar{
+position: absolute;
+width: 50%;
+height: 93px;
+left: 23%;
+top: 4%;
+
+background: #F8F6F3;
+border-radius: 14.094px;
+}
+
+.saerch_bar_content{
+    width: 50%;
+    height: 93px;
+    border:none;
+    background:none;
+    text-align:center;
+    justify-content:center;
+}
+
+/* 모락 모락 쿠킹 일지 */
+.main_title {
+position: absolute;
+width: auto;
+height: auto;
+left: 17%;
+top: 5%;
+
+font-size: 32px;
+font-weight: bold;
+}
+
+/* 혜디니’s 쿠킹 일지 */
+.view_main_title {
+position: absolute;
+width: auto;
+height: 51px;
+left: 39%;
+top: 3%;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 39.2371px;
+line-height: 130%;
+
+color: #000000;
+}
+
+/* 작성일 : 2024. 08. 12 */
+.view_main_title_date {
+position: absolute;
+width: auto;
+height: 31px;
+left: 110px;
+top: 60px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 130%;
+
+color: #474747;
+}
+
+/* 사진 배경 안쪽 */
+.view_main_image_box{
+position: absolute;
+width: 196px;
+height: 220px;
+left: 45%;
+top: 10%;
+
+background-color: #ffffff;
+border-radius: 18px;
+}
+
+/* 사진 배경 */
+.view_main_image_form {
+position: absolute;
+width: 100%;
+height: 270px;
+top: 13%;
+
+background-color: #EFEEEC;
+}
+
+/* 수정 박스 */
+.view_main_edit_box {
+    position: absolute;
+    width: 100px;
+    height: 48px;
+    left: 7%;
+    top: 12%;
+    
+    text-align:center;
+    background: #DCDCDC;
+    border:none;
+    border-radius: 18px;
+    
+}
+
+/* 삭제 박스 */
+.view_main_delete_box {
+    position: absolute;
+    width: 100px;
+    height: 48px;
+    left: 15%;
+    top: 12%;
+
+    text-align:center;
+    background: #DCDCDC;
+    border:none;
+    border-radius: 18px;
+}
+
+/* 목록 박스 */
+.view_main_list_box {
+position: absolute;
+width: 87.72px;
+height: 48.25px;
+left: 80%;
+top: 12%;
+
+text-align:center;
+background: #DCDCDC;
+border:none;
+border-radius: 18px;
+}
+
+/* 메인 폼 */
+.view_main_form {
+box-sizing: border-box;
+
+position: absolute;
+width: 80%;
+height: 1380px;
+left: 7%;
+top: 15%;
+
+text-align: center;
+border: 1px solid #747272;
+filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* 다음 글 넘어가기 */
+.view_main_next_box {
+position: absolute;
+width: 110px;
+height: 48px;
+left: 70%;
+top: 12%;
+
+text-align:center;
+border:none;
+background: #DCDCDC;
+border-radius: 18px;
+}
+
+/* 이전 글 넘어가기 */
+.view_main_prev_box {
+position: absolute;
+width: 110px;
+height: 48px;
+left: 60%;
+top: 12%;
+
+text-align:center;
+background: #DCDCDC;
+border:none;
+border-radius: 18px;
+}
+
+/* 이미지 사진 폼 */
+.view_mypage_image_box {
+position: absolute;
+width: 130px;
+height: 130px;
+left: 17%;
+top: 10%;
+
+border:1px solid #000000;
+border-radius:100%;
+}
+
+.iew_nickname {
+	top:60%;
+}
+
+/* 메인 음식 사진페이지 넘어가는 폼 */
+.view_content_images_form {
+position: absolute;
+width: 100%;
+height: 331px;
+left: 0%;
+top: 70%;
+
+border: 1px solid #000000;
+}
+
+/* 음식 이미지 */
+.view_content_image_form {
+position: absolute;
+width: 50%;
+height: 20%;
+left: 25%;
+top: 40%;
+
+border: 1px solid #000000; 
+}
+
+/* 댓글 폼 */
+.view_content_reply_form {
+position: absolute;
+width: 100%;
+height: 285px;
+left: 0%;
+top: 71%;
+
+border-top: 3px solid #D9D9D9;
+}
+
+/* 대댓글 폼 */
+.view_content_reply_form2 {
+position: absolute;
+width: 100%;
+height: 285px;
+top: 100%;
+
+border-top: 3px solid #D9D9D9;
+
+}
+
+/* 댓글 이미지 폼 */
+.view_reply_image_form1 {
+position: absolute;
+width: 100px;
+height: 100px;
+left: 10%;
+top: 10%;
+
+border:1px solid #000000;
+border-radius:100%;
+filter: drop-shadow(0px 0px 4.8px rgba(0, 0, 0, 0.53));
+}
+
+/* 답글 박스 */
+.view_reply_insert_box {
+position: absolute;
+width: 92.01px;
+height: 48.25px;
+left: 20%;
+top: 70%;
+
+background: #DCDCDC;
+border:none;
+border-radius: 11.3969px;
+text-align:center;
+
+}
+
+/* 목록창 */
+.view_reply_list {
+position: absolute;
+width: 15px;
+height: 15px;
+left: 97%;
+top: 18%;
+
+}
+/* 댓글 이미지 폼2 */
+.view_reply_image_form2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 10%;
+    top: 10%;
+    
+    border:1px solid #000000;
+	border-radius:100%;
+    filter: drop-shadow(0px 0px 4.8px rgba(0, 0, 0, 0.53));
+}
+

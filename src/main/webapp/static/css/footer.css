@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+        body {
+            font-family: 'Pretendard', sans-serif;
+            
+            margin: 0;
+            padding: 0;
+        }
+
+        .footer {
+            background-color: #f9f9f9;
+            padding: 30px 20px;
+            color: #666;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .footer .customer-service {
+            flex: 1;
+            margin-right: 20px; /* Add spacing between customer service and footer box */
+        }
+
+        .footer .customer-service h2 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .footer .customer-service p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+
+        .footer .customer-service .contact {
+            margin: 15px 0;
+        }
+
+        .footer .customer-service .contact button {
+            border: 1px solid #ddd;
+            background-color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 5px; /* Add margin for spacing between buttons */
+        }
+
+        .footer .footermanu_bar {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .footer .footer_box {
+            margin: 0 15px;
+            text-align: left;
+            flex: 1;
+            min-width: 150px; /* Ensure items have some minimum width */
+        }
+
+        .footer .footer_box h4 {
+            margin: 0 0 10px 0;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .footer .footer_box ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer .footer_box ul li {
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+
+        .footer .footer_box ul li a {
+            text-decoration: none;
+            color: #666;
+        }
+
+        .footer .footer_box ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .footer .company-info {
+            font-size: 14px;
+            color: #999;
+            margin-top: 20px;
+            line-height: 1.5;
+            text-align: left;
+        }
+
+        .footer .company-info b {
+            font-weight: bold;
+            color: #31B97E;
+            font-size: 20px;
+        }
+
+        .footer .company-info span {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .footer .policies {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+        }
+
+        .footer .policies a {
+            margin: 0 15px;
+            color: #666;
+            text-decoration: none;
+        }
+
+        .footer .policies a:hover {
+            text-decoration: underline;
+        }

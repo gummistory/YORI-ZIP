@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   background-color: #fff;
+    font-family: Arial, sans-serif;
+   
+}
+
+header, footer {
+    width: 100%;
+}
+
+.login-box {
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.container{
+	background-color: #fff;
+}
+.login-header {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.input-label {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #333;
+    width: 100%;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.button_login {
+    width: 100%;
+    padding: 15px;
+    background-color: #5b463c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button_login:hover {
+    background-color: #4a3a31;
+}
+
+.links {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.links a {
+    color: #888;
+    text-decoration: none;
+}
+
+.social-login {
+    margin-top: 30px;
+}
+
+.social-login h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons img {
+    width: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+}

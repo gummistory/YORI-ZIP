@@ -1,0 +1,181 @@
+		/* General Styles */
+		body {
+		    font-family: 'pretendard', sans-serif;
+		    margin: 0;
+		    padding: 0;
+		    color: #333;
+		}
+		
+				.userinfo_next_container {
+		    display: flex;
+		    flex-direction: column;
+		    text-align: left;
+		    align-items:center;
+		    justify-content: left;
+		    margin: 40px auto;
+		    width: 80%;
+		    max-width: 800px;
+		    
+		    padding: 30px 0; /* Adjust spacing inside the container */
+		    border-top: 2px solid #A19090; /* Top border line */
+		    border-bottom: 2px solid #A19090; /* Bottom border line */
+		}
+
+		
+		/* Title Styles */
+		h2 {
+		    text-align: center;
+		    font-size: 20px;
+		    font-weight: 700;
+		    margin-top: 40px;
+		    margin-bottom: 10px;
+		    color: #555;
+		}
+		
+					.userinfo_next_container h4 {
+		    font-size: 15px;
+		    color: #4d4d4d;
+		   margin-right: 80px;
+		    width: 30%; /* Align the width of the labels */
+		    text-align: left; /* Right-align the label */
+		}
+				
+				
+				/* Container for each label-input pair */
+		.input-group {
+		    display: flex;
+		    align-items: center;
+		    width: 100%;
+		    max-width: 400px; /* Set a max-width to limit the input fields */
+		    margin-bottom: 10px;
+		}
+				
+				
+				.next_input {
+		    width: 40%;
+		    height:40px;
+		   
+		    border: 1px solid #cccccc;
+		    border-radius: 4px;
+		    font-size: 14px;
+		    color: #333333;
+		    
+		    background-color: #f9f9f9; /* Default background color */
+		}
+		
+		/* 입력창 컬러 바꾸기 */
+			.next_input.filled {
+			    background-color: #E6E6E6; /* 입력값이 있으면 더 어두운 색으로 변하게, js 코드 참조 */
+			}
+		
+		
+		
+		/* Button Styles */
+		.userinfo_container button {
+		    background-color: #6D4F44;
+		    color: #fff;
+		    border: none;
+		    border-radius: 3px;
+		    padding: 10px 30px;
+		    font-size: 14px;
+		    cursor: pointer;
+		    transition: background-color 0.3s ease;
+		    font-family: 'Pretendard', sans-serif;
+		    margin-top:40px;
+		    
+		     
+		}
+		
+		.userinfo_container button:hover {
+		    background-color: #533E35;
+		}
+		
+		/* Footer Padding */
+		footer {
+		    margin-top: 50px;
+		}
+		
+		/* Green floating button on the right (YORI:ZIP button) */
+		.yorizip-btn {
+		    position: fixed;
+		    bottom: 20px;
+		    right: 20px;
+		    background-color: #45a043;
+		    border-radius: 50%;
+		    width: 80px;
+		    height: 80px;
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+		    cursor: pointer;
+		}
+		
+		.yorizip-btn img {
+		    width: 60%;
+		    height: 60%;
+		}
+		
+		
+		
+			.button-container {
+		    display: flex;
+		    justify-content: right;
+		    align-items: right;
+		    gap: 10px; /* Space between buttons */
+		    margin-top: 40px;
+		    margin-left:110px;
+		}
+		
+		/* 버튼들 */
+		.userinfo1 {
+    width: 20%;
+    padding: 10px 0;
+    margin: 5px 1%;
+    background-color: #fff;
+    color: #706363;
+    border: 1px solid #706363;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    width: 100px;
+    font-family: 'pretendard', sans-serif;
+	}
+	
+		.userinfo2 {
+    width: 20%;
+    padding: 10px 0;
+    margin: 5px 1%;
+    background-color: #5c4032;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    width: 100px;
+    font-family: 'pretendard', sans-serif;
+	}
+	
+	.userinfo1:hover {
+	    background-color: #E0E0E0;
+	}
+	
+	.userinfo1:nth-child(2) {
+	    background-color: #706363;
+	}
+	
+	.userinfo1:nth-child(2):hover {
+	    background-color: #706363;
+	}
+	
+	.userinfo2:hover {
+	    background-color: #706363;
+	}
+	
+	.userinfo2:nth-child(2) {
+	    background-color: #706363;
+	}
+	
+	.userinfo2:nth-child(2):hover {
+	    background-color: #3B3636;
+	}

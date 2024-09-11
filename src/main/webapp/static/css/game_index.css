@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    background-color: #f0f0f0;
+}
+
+header, footer{
+ width : 100%;
+}
+
+.menu-recommendation {
+    position: relative;
+   
+    width: 1200px;  /* 크기 확장 */
+    height: 800px; /* 크기 확장 */
+    border-radius: 10px;
+   /*  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: white;
+    text-align: center;
+}
+
+.menu-recommendation h1 {
+    margin: 0;
+    font-size: 36px; /* 폰트 크기 확대 */
+}
+
+.menu-recommendation p {
+    margin: 10px 0 20px;
+    font-size: 24px; /* 폰트 크기 확대 */
+}
+
+.menu-recommendation form {
+    display: flex;
+    flex-direction: column; /* 선택 박스를 세로로 배치 */
+    align-items: center;
+}
+
+.menu-recommendation select {
+    width: 240px; /* 선택 박스의 너비 확장 */
+    padding: 12px; /* 패딩 확장 */
+    margin: 10px 0;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 18px; /* 폰트 크기 확대 */
+    text-align: center;
+}
+
+.menu-recommendation button {
+    width: 240px; /* 버튼 너비 확장 */
+    padding: 12px; /* 패딩 확장 */
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    font-size: 20px; /* 폰트 크기 확대 */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu-recommendation button:hover {
+    background-color: #218838;
+}

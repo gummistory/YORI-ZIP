@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+/* 전체 기본 스타일 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+/* 헤더 컨테이너 */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    height: 100px;
+    position: relative;
+}
+
+/* 로고 */
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo img {
+    max-width: 60%;
+    height: auto;
+}
+
+/* 메인 메뉴 */
+.main-menu {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    position: absolute;
+    left: 20px;
+}
+
+.main-menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul li {
+    margin: 0 15px;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+/* 사용자 메뉴 */
+.user-menu {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+}
+
+.user-menu ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.user-menu ul li {
+    margin: 0 15px;
+}
+
+.user-menu ul li a {
+    color: gray;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* 로그인/회원가입 버튼과 로그아웃 버튼 */
+.user-menu .auth {
+    display: flex;
+}
+
+.user-menu .auth .login-link,
+.user-menu .auth .signup-link {
+    display: inline;
+}
+
+
+/* 로그인 후 메뉴 */
+.user-menu.logged-in .auth {
+    display: none;
+}
+
+.user-menu.logged-in .mypage,
+.user-menu.logged-in .logout {
+    display: inline;
+}
+
+/* 검색 아이콘 */
+.search-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.search-icon img {
+    height: 20px;
+}
+
+/* 햄버거 메뉴 */
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger-menu span {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 4px 0;
+}
+
+/* 모바일 메뉴 */
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.mobile-menu.active {
+    display: block;
+}
+
+.mobile-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-menu ul li {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.mobile-menu ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+    .main-menu,
+    .user-menu {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+}
+
+/* 모바일에서 로그인 후 상태 */
+.mobile-menu.logged-in .auth-mobile {
+    display: none;
+}
+
+.mobile-menu.logged-in .mypage-mobile,
+.mobile-menu.logged-in .logout-mobile {
+    display: inline;
+}
